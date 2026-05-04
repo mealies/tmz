@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/mealies/tmz/compare/v1.1.0...v1.1.1) (2026-05-04)
+
+
+### Bug Fixes
+
+* update goreleaser file to try and get the if statements to execute ([a854d42](https://github.com/mealies/tmz/commit/a854d42756eca1cb1b55b38186d3cb02899695a0))
+
 # [1.1.0](https://github.com/mealies/tmz/compare/v1.0.0...v1.1.0) (2026-05-04)
 
 
