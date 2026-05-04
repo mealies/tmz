@@ -16,6 +16,18 @@ builds:
       - linux
       - windows
       - darwin
+    hooks:
+      post:
+        - cmd: |
+            if [ "{{ .Os }}" = "darwin" ]; then
+              if [ -n "$QUILL_SIGN_P12" ]; then
+                quill sign-and-notarize "{{ .Path }}" --dry-run={{ .IsSnapshot }} --ad-hoc={{ .IsSnapshot }} -vv
+              else
+                echo "Skipping signing/notarization: QUILL_SIGN_P12 not set"
+              fi
+            fi
+          env:
+            - QUILL_LOG_FILE=/tmp/quill-{{ .Target }}.log
 
 archives:
   - format: tar.gz
