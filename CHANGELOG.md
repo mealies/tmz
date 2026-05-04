@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/mealies/tmz/compare/v1.0.0...v1.1.0) (2026-05-04)
+
+
+### Bug Fixes
+
+* add quill to goreleaser file ([c9d2b7a](https://github.com/mealies/tmz/commit/c9d2b7a17c6a28778494c25f5d06404632389373))
+
+
+### Features
+
+* add quill to help sign and notarize darwn binaries ([954fdf2](https://github.com/mealies/tmz/commit/954fdf250b52d0d6b94af0637ce69daa257d652e))
+
 # 1.0.0 (2026-05-04)
 
 
