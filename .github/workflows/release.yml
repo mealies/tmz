@@ -22,6 +22,7 @@ jobs:
             @semantic-release/git
             @semantic-release/exec
             @semantic-release/changelog
+          # No npm plugin needed for Go project
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
       - name: Run GoReleaser
