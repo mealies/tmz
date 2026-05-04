@@ -40,7 +40,7 @@ tmz show --all
 
 ### Get Command
 
-The `get` command displays the time for a specified timezone abbreviation with the option of specifying a specific datetime.
+The `get` command displays the time for a specified timezone abbreviation with the option of specifying a specific datetime (formats: `YYYY-MM-DD HH:MM:SS` or `HH:MM`).
 
 ```bash
 # Show current time in New York and London
