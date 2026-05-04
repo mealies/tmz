@@ -38,3 +38,18 @@ tmz show --all
 - `-t, --time string`: Local time to convert (formats: `YYYY-MM-DD HH:MM:SS` or `HH:MM`).
 - `-a, --all`: Show time in all timezones defined in the application's database.
 
+### Get Command
+
+The `get` command displays the time for a specified timezone abbreviation with the option of specifying a specific datetime.
+
+```bash
+# Show current time in New York and London
+tmz get gmt
+
+# Convert a specific time to that timezone]
+tmz get pst 15:43
+
+# Convert a specific datetime for Los Angeles
+tmz get pst "2023-10-27 15:00"
+
+```
