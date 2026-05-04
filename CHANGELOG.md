@@ -5,6 +5,13 @@
 
 * added get commend ([807f452](https://github.com/mealies/tmz/commit/807f452079a516491016c111442ceb791d99878f))
 
+# [1.2.0](https://github.com/mealies/tmz/compare/v1.1.1...v1.2.0) (2026-05-04)
+
+
+### Features
+
+* added get commend ([807f452](https://github.com/mealies/tmz/commit/807f452079a516491016c111442ceb791d99878f))
+
 ## [1.1.1](https://github.com/mealies/tmz/compare/v1.1.0...v1.1.1) (2026-05-04)
 
 
