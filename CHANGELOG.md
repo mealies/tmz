@@ -1,3 +1,11 @@
+# [1.3.0](https://github.com/mealies/tmz/compare/v1.2.0...v1.3.0) (2026-05-10)
+
+
+### Features
+
+* add add & remove commands ([05aa1dd](https://github.com/mealies/tmz/commit/05aa1dda4d3babcdc5aa452406143027c8e1dad0))
+* add select command ([95f2f03](https://github.com/mealies/tmz/commit/95f2f03b72baa1f9fe793e0ed78ce6e031ffe454))
+
 # [1.2.0](https://github.com/mealies/tmz/compare/v1.1.1...v1.2.0) (2026-05-04)
 
 
